@@ -1,5 +1,51 @@
+html, body {
+  height: 100%;
+}
+
+.column {
+  height: 100%;
+}
 .col {
   background-color: #73628A;
   border: 1px solid black;
   display: inline-block;
+}
+
+#colors {
+  height: 100%;
+}
+
+#color_1 {
+  background-color: #595758;
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+
+#color_2 {
+  background-color: #FFEEF2;
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+
+#color_3 {
+  background-color: #FFE4F3;
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+
+#color_4 {
+  background-color: #FFC8FB;
+  width: 20%;
+  display: inline-block;
+  float: left;
+}
+
+#color_5 {
+  background-color: #FF92C2;
+  width: 20%;
+  display: inline-block;
+  float: left;
 }

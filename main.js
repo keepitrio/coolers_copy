@@ -1,11 +1,27 @@
-function makeGrid(col) {
-  var output = "<div class = 'wrapper'>";
+/* Action items:
+ 1. Make a text file with all of the colors you want,
+   in order of the 5 colors that will appear on screen.
+   In JS, you'll slice by every 5 colors and assign them to arrays.
+ 2. Write a function where clicking on space will take a new array of colors
+   and assign them to each panel.
+*/
+/*
+var colors = [
+  [
+    { name: 'charcoal', color: '#dddd' }
+    { name: 'charcoal', color: '#dddd' }
+    { name: 'charcoal', color: '#dddd' }
+    { name: 'charcoal', color: '#dddd' }
+    { name: 'charcoal', color: '#dddd' }
+  ],
+  [
+    { name:'blue' }
+    { name:'blue' }
+    { name:'blue' }
+    { name:'blue' }
+    { name:'blue' }
+  ]
+]
 
-    for (var i = 0; i < 5; i++) {
-      output += "<div class= 'col'>";
-      output += "</div>"
-    }
-  return output;
-}
-
-document.body.intterHTML = makeGrid(4);
+***********Use hex for both written color and actual color of panel.
+*/

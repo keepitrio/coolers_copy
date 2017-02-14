@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B";
 }
 
 .column {
@@ -13,6 +14,7 @@ html, body {
 
 #colors {
   height: 100%;
+  display: inline;
 }
 
 #color_1 {
@@ -49,3 +51,93 @@ html, body {
   display: inline-block;
   float: left;
 }
+
+.navbar {
+  padding: 15px;
+}
+
+.navbar-left {
+  display: inline-block;
+}
+
+.navbar-right {
+  display: inline-block;
+  float: right;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  color: #9facbd;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  color: #3c4859;
+}
+
+.dropbtn {
+  border: none;
+  background-color: white;
+  color: #9facbd;
+  font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B";
+  font-size: 100%;
+}
+
+.dropbtn:hover {
+  color: #3c4859;
+}
+
+button:focus {outline:0;}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #9facbd;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: #3c4859;}
+
+.dropdown:active .dropdown-content {
+  display: block;
+}
+
+hr {
+  background-color: #9facbd;
+  height: 1px;
+  border: 0;
+}
+
+  .navbar-right .divider {
+    border-right: 1px solid #E8EDF2;
+    height: 100%
+    margin: 0 10px;
+    position: relative;
+    top: 10%;
+  }
+
+  .subheader {
+  color: #9facbd;
+  font-family: "Gotham Rounded SSm A","Gotham Rounded SSm B";
+  font-size: 100%;
+  }
+
+  .instructions {
+    display: inline-block;
+    padding-left: 25px;
+  }

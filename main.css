@@ -94,6 +94,11 @@ button:focus {outline:0;}
 .dropdown {
   position: relative;
   display: inline-block;
+
+}
+
+#dropdown {
+  border: solid 1px #3c4859;
 }
 
 .dropdown-content {
@@ -113,9 +118,9 @@ button:focus {outline:0;}
 
 .dropdown-content a:hover {color: #3c4859;}
 
-.dropdown:active .dropdown-content {
+/*.dropdown:active .dropdown-content {
   display: block;
-}
+}*/
 
 hr {
   background-color: #9facbd;

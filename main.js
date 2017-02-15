@@ -6,6 +6,19 @@
    and assign them to each panel.
 */
 
+var moreButton = document.getElementById('more')
+moreButton.onclick = function showDiv() {
+  //will open more menu
+  var dropdown = document.getElementById('dropdown');
+  if (dropdown.style.display === 'none') {
+    dropdown.style.display = 'block';
+  } else {
+    dropdown.style.display = 'none';
+  }
+}
+
+
+
 // Create H1 element
 var colorOne = document.getElementById('color_1');
 colorOne = document.createElement("H1")
